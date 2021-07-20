@@ -17,7 +17,7 @@ body{
 
 .padding-left{
     height: 800px;
-    width: 802px !important;
+    width: 755px !important;
     justify-content: center;
 }
 
@@ -32,13 +32,13 @@ body{
 }
 
 .banner-size{
-    width: 800px;
+    width: 755px;
     height: 400px;
 }
 
 .container{
     margin-top: 5px;
-    width: 400px;
+    width: 375px;
     height: 500px;
 }
 .container2{
@@ -61,7 +61,7 @@ body{
 }
 
 .card-container{
-    width: 400px;
+    width: 375px;
     height: 500px;
     position: relative;
     perspective:1000px;
@@ -114,7 +114,7 @@ body{
 }
 
 .card-size{
-    width: 400px;
+    width: 375px;
     height: 500px;  
 }
 
@@ -124,7 +124,7 @@ body{
 }
 
 #sidebar_left{
-    width:180px;
+    width:170px;
     height:1350px;
     text-align:center;
     float: left;
@@ -132,15 +132,15 @@ body{
 }
 
 #sidebar_right{
-    width:180px;
+    width:170px;
     height:1350px;
     text-align:center;
     float: right;
-    padding-left: 3px;
+    padding-left: 5px;
 }
 
 .sidebar_size{
-    width:180px;
+    width:170px;
     height:910px;
 }
 
@@ -149,8 +149,8 @@ body{
 }
 
 .banner-size2{
-    padding-left: 120px;
-    margin-top: 5px;
-    width: 560px;
+    padding-left: 127px;
+    margin-top: 6px;
+    width: 500px;
     height: 500px;
 }
