@@ -5,6 +5,7 @@ body{
     justify-content: center;
     font-family: Helvetica, Arial;
     background-color: antiquewhite;
+    height: 1300px;
 }
 
 .Article[role=main]{
@@ -36,9 +37,21 @@ body{
 }
 
 .container{
-    margin-top: 20px;
+    margin-top: 5px;
     width: 400px;
     height: 500px;
+}
+.container2{
+    width: 300px;
+    height: 500px;
+    margin-top: 0%;
+}
+
+.card-container2{
+    width: 300px;
+    height: 500px;
+    position: relative;
+    perspective:1000px;
 }
 
 .card-container{
@@ -46,6 +59,10 @@ body{
     height: 500px;
     position: relative;
     perspective:1000px;
+}
+
+.text{
+    font-size: 1.5rem !important;
 }
 
 .cover, .back{
@@ -58,7 +75,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 10rem;
+    font-size: 1rem !important;
     border-radius: .4rem;
     box-shadow: 0 .2rem .5rem rgba(0,0,0,.18);
     transform-style: preserve-3d;
@@ -73,6 +90,10 @@ body{
     transform: rotatey(180deg);
 }
 
+.card-container2:hover .cover{
+    transform: rotatey(180deg);
+}
+
 .back{
     background-color: antiquewhite;
     transform: rotatey(-180deg) translateZ(0);
@@ -82,24 +103,47 @@ body{
     transform: rotatey(0deg);
 }
 
+.card-container2:hover .back{
+    transform: rotatey(0deg);
+}
+
 .card-size{
     width: 400px;
-    height: 500px;
-    
+    height: 500px;  
+}
+
+.card-size2{
+    width: 300px;
+    height: 500px;  
 }
 
 #sidebar_left{
     width:300px;
-    height:800px;
+    height:1350px;
     text-align:center;
-    line-height:400px;
     float: left;
+    padding-right: 5px;
 }
 
 #sidebar_right{
     width:300px;
-    height:800px;
+    height:1350px;
     text-align:center;
-    line-height:400px;
     float: right;
+    padding-left: 3px;
+}
+
+.sidebar_size{
+    width:300px;
+    height:910px;
+}
+
+.top{
+    margin-top: 500px;
+}
+
+.banner-size2{
+    margin-top: 5px;
+    width: 800px;
+    height: 500px;
 }
